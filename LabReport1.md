@@ -1,3 +1,4 @@
+## Lab Report 1
 1. The `cd` command didn't produce any output because the command is used to navigate the file system by moving from one directory to another. The list command `ls` does not have to specify a directory. It listed the content of the current working directory which is lecture1. When there is no arguments, the `cat` command waits for my input and reproduce the same text as I typed in. So when I don't give any argument, the commands would operate on its default behavior.
 ![Image](Lab1-1.png)
 
