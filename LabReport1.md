@@ -1,25 +1,28 @@
 ## Lab Report 1
-1. It is not an error. The working directory is /home. The `cd` command didn't produce any output because the command is used to navigate the file system by moving from one directory to another. When no argument is provided, it take the user to the home directory.
+1. It is not an error. The working directory is /home. The `cd` command didn't produce any output because the command is used to navigate the file system by moving from one directory to another. When no argument is provided, it takes the user to the home directory.
 ![Image](lab1-1.png)
 
 2. This is not an error. With an argument, the working directory is /home/lecture1. This changes the current directory from /home to /home/lecture1.
 ![Image](lab1-4.png)
 
-3. This is an error. The current working directory is /home. The `cd` command does not work with file paths, only directories.
+3. This is an error. The working directory is /home. The `cd` command does not work with file paths, only directories.
 ![Image](lab1-7.png)
 
-4. This is not an error. The current working directory is /home. With no arguments, it lists the contents of the current directory, which is lecture1 in this case.
+4. This is not an error. The working directory is /home. With no arguments, it lists the contents of the current directory, which is lecture1 in this case.   
 ![Image](lab1-2.png)
 
-5.
+5.This is not an error. The working directory is /home/lecture1. With arguments, it lists the contents of the /home/lecture1 directory, which are Hello.class, Hello.java, messages and README. 
 ![Image](lab1-5.png)
 
-6. 
+6. This is not an error. The working directory is /home. 
 ![Image](lab1-8.png)
 
-7. ![Image](lab1-3.png)
-8. ![Image](lab1-6.png)
-9. ![Image](lab1-9.png)
+7. 
+![Image](lab1-3.png)
+8. 
+![Image](lab1-6.png)
+9. 
+![Image](lab1-9.png)
 
 
 Te list command `ls` does not have to specify a directory. It listed the content of the current working directory which is lecture1. 
