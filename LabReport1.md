@@ -22,7 +22,7 @@
 
 6. This is not an error. The working directory is `/home`. With the argument being a file, it simply lists the file `/home/lecture1/messages/zh-HK.txt` if it exists.
 
-![Image](lab1-8.png)
+![Image](lab1--8.png)
 
 7. This is not an error. The working directory is `/home`. Without arguments, `cat` is usually used to read from standard input.Tthe `cat` command waits for my input and reproduce the same text as I typed in.
 
