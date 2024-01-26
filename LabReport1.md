@@ -1,14 +1,13 @@
 ## Lab Report 1
-1. It is not an error. The working directory is `/home`. The `cd` command didn't produce any output because the command is used to navigate the file system by moving from one directory to another. When no argument is provided, it takes the user to the home directory.
+1. This is not an error. The working directory is `/home`. The `cd` command didn't produce any output because the command is used to navigate the file system by moving from one directory to another. When no argument is provided, it takes the user to the home directory.
 
 ![Image](lab1-1.png) 
-
 
 2. This is not an error. With an argument, the working directory is `/home/lecture1`. This changes the current directory from `/home` to `/home/lecture1`. 
 
 ![Image](lab1-4.png) 
 
-3. This is an error. The working directory is `/home`. The `cd` command does not work with file paths, only directories, so it produces error message.
+3. This is an error. The working directory is `/home`. The `cd` command does not work with file paths, only directories, so it produces an error message.
 
 ![Image](lab1-7.png)
 
@@ -31,7 +30,6 @@
 8. This is an error. The working directory is `/home/lecture`. With an argument being a directory, it typically returns an error saying it is a directory because `cat` is used for files, not directories.
 
 ![Image](lab1-6.png)
-
 
 9. This is not an error. The working directory is `/home/lecture1`. With an argument being a file, the command `cat` displays the contents of the file. 
 
