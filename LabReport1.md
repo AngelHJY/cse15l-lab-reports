@@ -5,16 +5,16 @@
 2. This is not an error. With an argument, the working directory is /home/lecture1. This changes the current directory from /home to /home/lecture1.
 ![Image](lab1-4.png)
 
-3. This is an error. The working directory is /home. The `cd` command does not work with file paths, only directories.
+3. This is an error. The working directory is /home. The `cd` command does not work with file paths, only directories, so it produces error message.
 ![Image](lab1-7.png)
 
 4. This is not an error. The working directory is /home. With no arguments, it lists the contents of the current directory, which is lecture1 in this case.   
 ![Image](lab1-2.png)
 
-5.This is not an error. The working directory is /home/lecture1. With arguments, it lists the contents of the /home/lecture1 directory, which are Hello.class, Hello.java, messages and README. 
+5.This is not an error. The working directory is /home/lecture1. With the argument being a directory, it lists the contents of the /home/lecture1 directory, which are Hello.class, Hello.java, messages and README. 
 ![Image](lab1-5.png)
 
-6. This is not an error. The working directory is /home. 
+6. This is not an error. The working directory is /home. With the argument being a file, it simply lists the file /home/lecture1/messages/zh-HK.txt if it exists.
 ![Image](lab1-8.png)
 
 7. 
