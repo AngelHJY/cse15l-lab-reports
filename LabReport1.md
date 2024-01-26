@@ -5,10 +5,10 @@
 2. This is not an error. With an argument, the working directory is /home/lecture1. This changes the current directory from /home to /home/lecture1.
 ![Image](lab1-4.png)
 
-3. This is an error. The cd command does not work with file paths, only directories.
+3. This is an error. The current working directory is /home. The cd command does not work with file paths, only directories.
 ![Image](lab1-7.png)
 
-4.
+4. 
 ![Image](lab1-2.png)
 
 5.
