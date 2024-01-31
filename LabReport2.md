@@ -17,7 +17,7 @@
 1. The method `handleRequest(URI url)` of the `Handler` class is called.
 2. - Relevant Arguments: The `URI url` contains the URI of the request.`url` represents the string `/add-message?s=How are you&user=yash`.
    - Relevant Field Values: The `String chat` field in the `Handler` class: Before the request, it holds the current state of the chat. If this is the first message, it would be an empty string ("").
-3. Yes, the value changes. The method checks the path of the URI. Upon receiving `/add-message?s=How are you&user=yash`, the `chat` field changes from its initial state by appending `"yash: How are you\n"`. While it initially contained `"jpolitz: Hello\n"`, it now holds `"jpolitz: Hello\nyash: How are you\n"`.
+3. Yes, the value changes. The method checks the path of the URI. Upon receiving `/add-message?s=How are you&user=yash`, the `chat` field changes from its initial state by appending `"yash: How are you\n"`. While it initially contained `"jpolitz: Hello\n"`, it now holds `"jpolitz: Hello\nyash: How are you\n"`. The `chat` field value is now first line: `"jpolitz: Hello"` and second line:`"yash: How are you"`.
 
 ---
 # part 2
