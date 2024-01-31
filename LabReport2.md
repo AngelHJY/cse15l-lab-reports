@@ -27,6 +27,7 @@
 ![Image](Lab2-5.png)
 3. A screenshot for a terminal interaction where I logged into my ieng6 account without being asked for a password
 ![Image](Lab2-6.png)
+
 ---
 # Part 3
 I learned how to use `ssh` and connected to the server `ieng6` for the first time. I also learned how to clone into the repository I needed to be in. What's more, I learned that the port number dentifies a specific port that the web server runs on. 
