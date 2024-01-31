@@ -20,7 +20,7 @@
 3. Yes, the value changes. The method checks the path of the URI. Upon receiving `/add-message?s=How are you&user=yash`, the `chat` field changes from its initial state by appending `"yash: How are you\n"`. While it initially contained `"jpolitz: Hello\n"`, it now holds `"jpolitz: Hello\nyash: How are you\n"`. The `chat` field value is now first line: `"jpolitz: Hello"` and second line:`"yash: How are you"`.
 
 ---
-# part 2
+# Part 2
 1. The absolute path to the private key for my SSH key: `/home/.ssh/id_ed25519`.
 ![Image](Lab2-4.png)
 2. The absolute path to the public key for my SSH key: `home/.ssh/id_ed25519.pub`.
@@ -28,5 +28,5 @@
 3. A screenshot for a terminal interaction where I logged into my ieng6 account without being asked for a password
 ![Image](Lab2-6.png)
 ---
-# part 3
+# Part 3
 I learned how to use `ssh` and connected to the server `ieng6` for the first time. I also learned how to clone into the repository I needed to be in. What's more, I learned that the port number dentifies a specific port that the web server runs on. 
