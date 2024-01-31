@@ -1,4 +1,5 @@
 ## Lab Report 2
+1. Q1: Which methods in your code are called?
 
-![Image](lab2-1.png)
-![Image](lab2-2.png)
+![Image](Lab2-1.png)
+![Image](Lab2-2.png)
