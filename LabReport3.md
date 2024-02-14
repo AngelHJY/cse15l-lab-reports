@@ -79,6 +79,7 @@ less -N ./technical/government/Alcohol_Problems/DraftRecom-PDF.txt
 This command opens `DraftRecom-PDF.txt` with line numbers displayed. It's useful for referencing specific parts of the government alcohol document by line number.
 ## Works Cited
 "less(1) - Linux man page." GNU Project, n.d., https://man7.org/linux/man-pages/man1/less.1.html.
+
 This is a command I know and I double checked it using this website. 
 
 ## Command 2: -I 
@@ -101,6 +102,7 @@ In Sarasota, Florida, President George W. Bush went for an early morning run.
 The word `president` is found and highlighted. The searche ignore case even if the pattern contains uppercase letters, making it easier to find occurrences of a word. 
 ## Works Cited
 "less(1) - Linux man page." GNU Project, n.d., https://man7.org/linux/man-pages/man1/less.1.html.
+
 I was wondering how to make the search not care about uppercase letters so I searched up and this command is handy. 
 
 ## Command 3: -M
@@ -121,6 +123,7 @@ less -M ./technical/911report/CHAPTER-6.txt
 It shows my current position is 6% out of the whole report. It is useful because I may wonder the how long the report is left to read. 
 ## Works Cited
 "less(1) - Linux man page." GNU Project, n.d., https://man7.org/linux/man-pages/man1/less.1.html.
+
 I looked through the web page and I pick this one as it is useful for me. 
 
 ## Command 4: -E
@@ -141,6 +144,7 @@ less -E ./technical/plos/journal.pbio.0020001.txt
 It automatically exit the first time it reaches end of the file. I only want to take a quick look at the file and it saves my time.
 ## Works Cited
 "less(1) - Linux man page." GNU Project, n.d., https://man7.org/linux/man-pages/man1/less.1.html.
+
 I was looking for a handy way to exit the file without doing q and this command looks pretty useful. 
 
 
