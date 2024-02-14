@@ -1,6 +1,6 @@
 # Lab Report 3
 # Part 1 - Bugs
-## 1. Failure-Inducing Input for `reverseInPlace`
+## 1. Failure-Inducing Input:
 ```
 @Test
 public void testReversed2() {
@@ -9,7 +9,7 @@ public void testReversed2() {
   }
 ```
 
-## 2. An input that doesn't induce a failure for `reverseInPlace`:
+## 2. An input that doesn't induce a failure:
 ```
 @Test 
 public void testReversed() {
