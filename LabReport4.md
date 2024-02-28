@@ -47,7 +47,7 @@ git add ListExamples.java <enter>
 git commit -m "fixed the code file" <enter>
 git push origin main
 
-I first used add to put the file that I edited in stage and then I commit the change by command git commit.
+I first used add to stage the file that I edited and then I commit the change by command git commit.
 I chose the message to be "fixed the code file" so that it displayed what I did with the file.
 Then I pushed the change to the github by git push. 
 ```
