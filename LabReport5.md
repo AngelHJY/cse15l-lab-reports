@@ -1,5 +1,6 @@
 # Lab Report 5
 
+# Part 1 - Debugging Scenario
 ## 1 original post
 ```
 Symptom: The first image is showing a failed test case in Junit. 
@@ -45,5 +46,9 @@ java -cp ../libs/junit-4.13.2.jar:../libs/hamcrest-2.2.jar:. org.junit.runner.JU
 ```
 4. A description of what to edit to fix the bug:it is included in the step3
 ```
+
+# Part2 - Reflection
+I learned how to use bash and scripting which is very interesting and convenient. The use of jdb is also a new thing to me. I learned how to use jdb with `suspend` to pause the program and show the stack trace during the loop. And how it can help me find which test is triggering the infinite loop and which line the program stopped on when the program was suspended. 
+
 
 
