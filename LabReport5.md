@@ -38,9 +38,8 @@ and this is what causes the last element of the array to be missing in the new a
 2. the content of each file before fixing the bug: it has too many files and
 it is not very possible to copy and paste all of them here. I have provided the basic setup of what files are included. 
 ```
-
-3. The full command line (or lines) you ran to trigger the bug: bash test.sh to run the Junit test:
 ```
+3. The full command line (or lines) you ran to trigger the bug: bash test.sh to run the Junit test:
 javac -cp ../libs/junit-4.13.2.jar:../libs/hamcrest-2.2.jar:. PublicTester.java
 java -cp ../libs/junit-4.13.2.jar:../libs/hamcrest-2.2.jar:. org.junit.runner.JUnitCore PublicTester
 ```
